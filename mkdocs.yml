@@ -1,0 +1,27 @@
+site_name: 我的个人笔记
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - 首页: index.md
+  - 大组会:
+      - 大组会: GroupMeeting/Groupmeeting20260929-technical.md
+  - Linux:
+      - Linux 常用命令: LittleGroupMeeting/LittleGroupMeeting20260930.md
